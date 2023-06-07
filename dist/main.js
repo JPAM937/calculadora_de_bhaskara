@@ -2,6 +2,8 @@
 var results = document.getElementById("delta");
 var resultsBask = document.getElementById("bhaskara");
 function botaoCalcular() {
+    results.innerHTML = "Sem resultados";
+    resultsBasl.innerHTML = "Sem resultados";
     /* Criando A, B e C */
     let value_a;
     let value_b;
