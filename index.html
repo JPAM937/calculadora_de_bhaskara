@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculadora De Bhaskara</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+
+  <body>
+    <h3>Valor de A</h3>
+    <input type="number" name="Valor de A" id="input_a" value="1" />
+    <h3>Valor de B</h3>
+    <input type="number" name="Valor de B" id="input_b" value="1" />
+    <h3>Valor de C</h3>
+    <input type="number" name="Valor de C" id="input_c" value="1" />
+    <h1>Resultados</h1>
+    <h2>Delta:</h2>
+    <p id="delta">Sem resultados</p>
+    <h2>Bhaskara:</h2>
+    <p id="bhaskara">Sem resultados</p>
+    <script src="dist/math.js"></script>
+    <script src="dist/main.js"></script>
+    <button onclick="botaoCalcular();">Calcular</button>
+  </body>
+</html>
